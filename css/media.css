@@ -1,0 +1,231 @@
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){ 
+/*    header start*/
+    header {
+    background-color: #098A5B;
+}
+   .menu ul li a {
+    margin: 6px!important;
+}
+    .dp_a {
+    padding: 0 24px 0;
+}
+    .dp_m[data-bs-popper] {
+    top: 45px;
+    left: 8px;
+}
+    .dp_m {
+    width: 283px;
+    padding: 5px 5px;
+}
+/*    creative start*/
+    .c_btn {
+    margin: 20px 35px;
+    width: 190px;
+    height: 54px; 
+    }
+    .c_h1 {
+    font-size: 27px;
+    line-height: 50px;
+}
+    .c_custom {
+    margin: 20px 0px;
+}
+  .c_img {
+    margin-left: 90px;
+}  
+  .c_h2 {
+    margin: 0px 27px;
+}  
+    .c_h {
+    margin: 0px 65px;
+}  
+   .c_p2 {
+    margin: 0 27px;
+} 
+/*    service start*/
+   .s_head {
+    margin: -22px 0 0 64px;
+}
+/*    single item start*/
+    .s_icon {
+    margin: 22px 0 0 96px;
+}
+   .s_item_h2 {
+    margin-left: 28px;
+} 
+/*    work start*/
+    .work {
+    padding: 30px 0 0 0;
+}
+  .work1{ 
+     padding: 28px 0 50px 0;
+     }  
+    .w_btn{
+      width: 103px;
+      height: 40px;   
+      margin: -43px 0 0 0px;
+}
+    .s_head {
+    margin: -22px 0 0 67px;
+}
+   .w_img {
+    margin: 0px;
+} 
+    .w_image {
+    margin-left: 0px;
+}
+/*    work end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px)and (max-width: 767.98px){ 
+    /*    header start*/
+    header{
+    background-color: #098A5B;
+}
+   .menu ul li a {
+    margin: 6px!important;
+}
+    .dp_a {
+    padding: 0 24px 0;
+}
+   .dp_m[data-bs-popper] {
+    top: 45px;
+    left: 8px;
+} 
+    .dp_m {
+    width: 283px;
+    padding: 5px 5px;
+}
+/*    creative start*/
+    .c_h1 {
+    font-size: 27px;
+    line-height: 50px;
+}
+   .c_btn {
+    margin: 20px 35px;
+    width: 190px;
+    height: 54px; 
+    }
+    .c_custom {
+    margin: 20px 0px;
+}
+   .c_img {
+    margin-left: 90px;
+}  
+  .c_h2 {
+    margin: 0px 27px;
+}
+  .c_h {
+    margin: 0px 65px;
+}   
+   .c_p2 {
+    margin: 0 27px;
+} 
+/*    service start*/
+  .s_head {
+    margin: -22px 0 0 64px;
+}
+/*    single item start*/
+     .s_icon {
+     margin: 22px 0 0 96px;
+}
+   .s_item_h2 {
+    margin-left: 28px;
+} 
+ /*    work start*/
+    .work {
+    padding: 30px 0 0 0;
+}
+  .work1{ 
+     padding: 28px 0 50px 0;
+     } 
+    .w_btn{
+      width: 103px;
+      height: 40px;
+      margin: -43px 0 0 0px;
+}
+   .s_head {
+    margin: -22px 0 0 67px;
+}
+    .w_img {
+    margin: 0px;
+} 
+    .w_image {
+    margin-left: 0px;
+} 
+/*    work end*/   
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px){ 
+/*    header start*/
+    header {
+    background-color: #098A5B;
+}
+ .menu ul li a {
+    margin: 6px!important;
+}
+    .dp_a {
+    padding: 0 24px 0;
+}
+/*    header end*/
+    .dp_m[data-bs-popper] {
+    top: 48px;
+    left: 5px;
+    margin-top: 0px;
+}
+/*    creative start*/
+ .c_h1 {
+    font-size: 35px;
+    line-height:70px;
+}  
+    .s_head {
+    margin: 0 0 0 -59px;
+}
+/*    work start*/
+     .w_btn {
+    width: 118px;
+    height: 49px;
+    margin-top: -32px;
+ }
+     .s_head {
+    margin: -22px 0 0 67px;
+}
+/*
+   .w_img {
+    margin-left: 41px;
+} 
+    .w_image1{
+      margin-left: 41px; 
+    }
+*/
+    
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+.w_img {
+    margin-left: 224px;
+}  
+    .w_image1{
+      margin-left: 224px;  
+    } 
+    
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px)and (max-width: 1399.98px) { 
+.w_img{
+   margin-left: 198px; 
+  
+}
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px)and (max-width: 1700.98px) { 
+.w_img{
+     margin-left: 140px;
+}
+}
